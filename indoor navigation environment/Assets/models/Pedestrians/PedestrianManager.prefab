@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1028803229395604}
+  m_IsPrefabAsset: 1
+--- !u!1 &1028803229395604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4281456448126532}
+  - component: {fileID: 114033816063296148}
+  m_Layer: 0
+  m_Name: PedestrianManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4281456448126532
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028803229395604}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114033816063296148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028803229395604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a9133f58fe2f2f44b24bfc41d0214b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOptimizing: 1
+  pedTotalCount: 100
+  pedPrefab: {fileID: 1752442323004168, guid: b451652754bacb442bd2abea01860807, type: 2}
+  pedestrians:
+  - {fileID: 1763419275135856, guid: c8f08abcc89a79e44b5cf4c76cb350be, type: 2}
+  - {fileID: 1230408056231092, guid: 7c75a3f6798adb44aacef51fbcfdf933, type: 2}
+  - {fileID: 1340646531108116, guid: dcd983351d88f274cb1b202766d3423b, type: 2}
+  - {fileID: 1621385212655334, guid: 8c2830ceaf0a4724eb572f8be6df238c, type: 2}
+  - {fileID: 1096931329032542, guid: 64a1a34972d199e40ae48bfc81d46184, type: 2}
+  - {fileID: 1250657581772398, guid: 33278d6ac56e0a943b6e23d7440601b5, type: 2}
+  - {fileID: 1805666219070732, guid: a2bac1519df196e4da92c68d911d9a80, type: 2}
+  - {fileID: 1162001512586446, guid: e6cc28fd66e608c4fbb5f9a3d929d71f, type: 2}
+  - {fileID: 1749944306968764, guid: 0ea44666cd4859a478ad286df14c560c, type: 2}
