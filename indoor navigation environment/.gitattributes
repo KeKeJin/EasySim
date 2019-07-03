@@ -1,3 +1,4 @@
 Assets/IGBlocks/IG_Warehouse/Scenes/WarehouseVeryBig/LightingData.asset filter=lfs diff=lfs merge=lfs -text
 Assets/IGBlocks/IG_Warehouse/Scenes/AllPrefabs/LightingData.asset filter=lfs diff=lfs merge=lfs -text
 Assets/meshes/TugBot/Tugbot.fb filter=lfs diff=lfs merge=lfs -text
+indoor/[[:space:]]navigation/[[:space:]]environment/Temp/TarGZ/Standard/[[:space:]]Assets filter=lfs diff=lfs merge=lfs -text
