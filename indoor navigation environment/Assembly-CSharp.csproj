@@ -149,6 +149,7 @@
     <Compile Include="Assets\Scripts\VRController.cs" />
     <Compile Include="Assets\Scripts\WandController.cs" />
     <Compile Include="Assets\Scripts\WanderingAI.cs" />
+    <Compile Include="Assets\Scripts\WaypointPatrol.cs" />
     <None Include="Assets\Sci-Fi Styled Modular Pack\Readme.txt" />
     <None Include="Assets\image synthesis\Assets\ImageSynthesis\Shaders\UberReplacement.shader" />
     <None Include="Assets\Scripts\New UIElements View.uxml" />
