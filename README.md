@@ -2,15 +2,13 @@
 
 This is a simulation for AV indoor navigation. Currently it supports one scenes, and several functionalities, including virtual reality, depth rendering, and segmentation camera rendering. 
 In the future(by the end of July 2019), it will have more scenes, and it will also simulate a lidar sensor, and it will be ROS compatible.
-
+![progresss.gif](progresss.gif)
 ## Getting Started
 
 1. Install unity (recommend 2018 2.4 and above). [Windows](https://unity3d.com/get-unity/download/archive) [Linux](https://beta.unity3d.com/download/fe703c5165de/public_download.html)
 2. Install [Git LFS](https://git-lfs.github.com/) (this should be as simple as `git lfs install`).
 3. Clone this repository from Github:
-
-    ```      git clone https://github.com/kekekekekekekekeke/simulator.git
-    ```
+```      git clone https://github.com/kekekekekekekekeke/simulator.git ```
       
 
 
