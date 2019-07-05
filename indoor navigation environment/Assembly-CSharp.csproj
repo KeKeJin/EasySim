@@ -142,10 +142,11 @@
     <Compile Include="Assets\Scripts\LidarV2.cs" />
     <Compile Include="Assets\Scripts\LidarV2DepthCamera.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\RandomPredestrains.cs" />
     <Compile Include="Assets\Scripts\SimulationController.cs" />
     <Compile Include="Assets\Scripts\Steering.cs" />
     <Compile Include="Assets\Scripts\ToggleControl.cs" />
-    <Compile Include="Assets\Scripts\ToggleCruise.cs" />
+    <Compile Include="Assets\Scripts\ToggleReset.cs" />
     <Compile Include="Assets\Scripts\VRController.cs" />
     <Compile Include="Assets\Scripts\WandController.cs" />
     <Compile Include="Assets\Scripts\WanderingAI.cs" />
