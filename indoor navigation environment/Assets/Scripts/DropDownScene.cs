@@ -15,21 +15,32 @@ public class DropDownScene : MonoBehaviour {
     public void SceneDropdown_IndexChanged(int index)
     {
         selectScene = index;
-        if(index == 0)
+        ColorBlock cb = sceneDropdown.colors;
+        if (index == 0)
         {
-            ColorBlock cb = sceneDropdown.colors;
-            cb.normalColor = Color.black;
+            
+            cb.normalColor = Color.red;
+            sceneDropdown.colors = cb;
+        }
+        else
+        {
+            cb.normalColor = Color.white;
             sceneDropdown.colors = cb;
         }
     }
     public void ModeDropdown_IndexChanged(int index)
     {
         selectMode = index;
+        ColorBlock cb = sceneDropdown.colors;
         if (index == 0)
         {
-            ColorBlock cb = sceneDropdown.colors;
-            cb.normalColor = Color.black;
-            sceneDropdown.colors = cb;
+            cb.normalColor = Color.red;
+            modeDropDown.colors = cb;
+        }
+        else
+        {
+            cb.normalColor = Color.white;
+            modeDropDown.colors = cb;
         }
     }
     // Use this for initialization
@@ -45,10 +56,22 @@ public class DropDownScene : MonoBehaviour {
 
     public void ButtonClicked()
     {
+        ColorBlock cbMode = modeDropDown.colors;
+        ColorBlock cbScene = sceneDropdown.colors;
         if (selectMode != 0 && selectScene != 0)
         {
             Debug.Log(selectScene);
             SceneManager.LoadScene(selectScene);
+        }
+        if (selectMode == 0)
+        {
+            cbMode.normalColor = Color.red;
+            modeDropDown.colors = cbMode;
+        }
+        if (selectScene == 0)
+        {
+            cbScene.normalColor = Color.red;
+            sceneDropdown.colors = cbScene;
         }
     }
 }
