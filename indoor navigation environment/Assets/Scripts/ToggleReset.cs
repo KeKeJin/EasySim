@@ -8,13 +8,15 @@ public class ToggleReset : MonoBehaviour {
     Toggle myToggle;
     public Toggle[] allToggles;
     public GameObject car;
-
+    private Vector3 oldPosition;
     void Start()
     {
         myToggle = GetComponent<Toggle>();
         myToggle.onValueChanged.AddListener(delegate {
             ToggleValueChanged(myToggle);
         });
+        oldPosition = car.transform.position;
+
     }
 
 
@@ -25,7 +27,7 @@ public class ToggleReset : MonoBehaviour {
             allToggles[i].isOn = false;
         }
         myToggle.isOn = false;
-        car.transform.position = new Vector3(-96.8f, -2.793f, 8.0f);
+        car.transform.position = oldPosition;
         car.transform.rotation = new Quaternion(0, 0, 0, 0);
     }
 }
