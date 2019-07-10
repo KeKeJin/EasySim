@@ -121,6 +121,9 @@
     <Compile Include="Assets\image synthesis\Assets\SimpleFileBrowser\Scripts\SimpleFileBrowserItem.cs" />
     <Compile Include="Assets\image synthesis\Assets\SimpleFileBrowser\Scripts\SimpleFileBrowserMovement.cs" />
     <Compile Include="Assets\image synthesis\Assets\SimpleFileBrowser\Scripts\SimpleFileBrowserQuickLink.cs" />
+    <Compile Include="Assets\menu\Assets\Scripts\AnimatorFunctions.cs" />
+    <Compile Include="Assets\menu\Assets\Scripts\MenuButton.cs" />
+    <Compile Include="Assets\menu\Assets\Scripts\MenuButtonController.cs" />
     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshLink.cs" />
     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifier.cs" />
     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
@@ -138,6 +141,7 @@
     <Compile Include="Assets\Scripts\CarRemoteControl.cs" />
     <Compile Include="Assets\Scripts\CarUserControl.cs" />
     <Compile Include="Assets\Scripts\DepthRenderer.cs" />
+    <Compile Include="Assets\Scripts\DropDownScene.cs" />
     <Compile Include="Assets\Scripts\FollowPlayerView.cs" />
     <Compile Include="Assets\Scripts\LidarV2.cs" />
     <Compile Include="Assets\Scripts\LidarV2DepthCamera.cs" />

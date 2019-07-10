@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/workingish scene with toggles for different views.unity
+- path: Assets/Scenes/HauntedHouse.unity
   isLoaded: 1
   isActive: 1
