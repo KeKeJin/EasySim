@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class DropDownScene : MonoBehaviour {
-    List<string> scenes = new List<string>() { "Please select Scene", "Warehouse", "Haunted House", "School Corridor" };
+    List<string> scenes = new List<string>() { "Please select Scene", "Warehouse", "Haunted House"};
     List<string> modes = new List<string>() { "Please select Mode", "VR mode", "Display mode" };
     public Dropdown sceneDropdown;
     public Dropdown modeDropDown;
