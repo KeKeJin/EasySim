@@ -22,12 +22,17 @@ public class RandomPredestrains : MonoBehaviour {
         {
             CreatePredestrains();
             traffic += 1;
-        }
+        } 
     }
 
     void CreatePredestrains()
     {
-       // spawnLocation += new Vector3(Random.value *10, 0, Random.value*5);
-        Instantiate(m_Predestrains[Random.Range(0,m_Predestrains.Length)], spawnLocation, Quaternion.identity);
+        // spawnLocation += new Vector3(Random.value *10, 0, Random.value*5);
+        GameObject target = m_Predestrains[Random.Range(0, m_Predestrains.Length)];
+        Vector3 targetLocation = target.transform.position;
+        Quaternion targetRotation = target.transform.rotation;
+        target.SetActive(true);
+        Instantiate(target, targetLocation, targetRotation);
+        target.SetActive(false);
     }
 }
