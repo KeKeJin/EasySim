@@ -141,9 +141,13 @@
     <Compile Include="Assets\Scripts\CarRemoteControl.cs" />
     <Compile Include="Assets\Scripts\CarUserControl.cs" />
     <Compile Include="Assets\Scripts\DepthRenderer.cs" />
+    <Compile Include="Assets\Scripts\DepthSynthesis.cs" />
     <Compile Include="Assets\Scripts\DropDownScene.cs" />
     <Compile Include="Assets\Scripts\FollowPlayerView.cs" />
     <Compile Include="Assets\Scripts\GameEnding.cs" />
+    <Compile Include="Assets\Scripts\GroundView.cs" />
+    <Compile Include="Assets\Scripts\HandleMenuVR.cs" />
+    <Compile Include="Assets\Scripts\LaserButton.cs" />
     <Compile Include="Assets\Scripts\LidarV2.cs" />
     <Compile Include="Assets\Scripts\LidarV2DepthCamera.cs" />
     <Compile Include="Assets\Scripts\LightFlicker.cs" />
@@ -156,6 +160,7 @@
     <Compile Include="Assets\Scripts\ToggleControl.cs" />
     <Compile Include="Assets\Scripts\ToggleReset.cs" />
     <Compile Include="Assets\Scripts\VRController.cs" />
+    <Compile Include="Assets\Scripts\VRMenu.cs" />
     <Compile Include="Assets\Scripts\WandController.cs" />
     <Compile Include="Assets\Scripts\WanderingAI.cs" />
     <Compile Include="Assets\Scripts\WaypointPatrol.cs" />

@@ -21,12 +21,12 @@ public class ImageSynthesis : MonoBehaviour
 
     // pass configuration
     private CapturePass[] capturePasses = new CapturePass[] {
-		// new CapturePass() { name = "_img" },
-		new CapturePass() { name = "_id", supportsAntialiasing = false },
-		// new CapturePass() { name = "_layer", supportsAntialiasing = false },
-		// new CapturePass() { name = "_depth" },
-		// new CapturePass() { name = "_normals" },
-		// new CapturePass() { name = "_flow", supportsAntialiasing = false, needsRescale = true } // (see issue with Motion Vectors in @KNOWN ISSUES)
+  //    new CapturePass() { name = "_img" },
+        new CapturePass() { name = "_id", supportsAntialiasing = false },
+  //    new CapturePass() { name = "_layer", supportsAntialiasing = false },
+  //    new CapturePass() { name = "_depth" },
+  //    new CapturePass() { name = "_normals" },
+  //    new CapturePass() { name = "_flow", supportsAntialiasing = false, needsRescale = true } // (see issue with Motion Vectors in @KNOWN ISSUES)
 	};
 
     struct CapturePass
@@ -63,7 +63,7 @@ public class ImageSynthesis : MonoBehaviour
         for (int q = 1; q < capturePasses.Length; q++)
             capturePasses[q].camera = CreateHiddenCamera(capturePasses[q].name);
 
-        OnCameraChange();
+        OnDisable();
         OnSceneChange();
     }
 
@@ -75,7 +75,7 @@ public class ImageSynthesis : MonoBehaviour
 #endif // UNITY_EDITOR
 
         // @TODO: detect if camera properties actually changed
-        OnCameraChange();
+        OnDisable();
     }
 
     private Camera CreateHiddenCamera(string name)
@@ -122,7 +122,7 @@ public class ImageSynthesis : MonoBehaviour
         Normals = 4
     };
 
-    public void OnCameraChange()
+    public void OnDisable()
     {
         int targetDisplay = 1;
         var mainCamera = GetComponent<Camera>();
@@ -148,10 +148,10 @@ public class ImageSynthesis : MonoBehaviour
 
         // setup command buffers and replacement shaders
         SetupCameraWithReplacementShader(capturePasses[0].camera, uberReplacementShader, ReplacelementModes.ObjectId);
-        // SetupCameraWithReplacementShader(capturePasses[2].camera, uberReplacementShader, ReplacelementModes.CatergoryId);
-        // SetupCameraWithReplacementShader(capturePasses[3].camera, uberReplacementShader, ReplacelementModes.DepthCompressed, Color.white);
-        // SetupCameraWithReplacementShader(capturePasses[4].camera, uberReplacementShader, ReplacelementModes.Normals);
-        // SetupCameraWithPostShader(capturePasses[5].camera, opticalFlowMaterial, DepthTextureMode.Depth | DepthTextureMode.MotionVectors);
+  //  SetupCameraWithReplacementShader(capturePasses[2].camera, uberReplacementShader, ReplacelementModes.CatergoryId);
+  //    SetupCameraWithReplacementShader(capturePasses[3].camera, uberReplacementShader, ReplacelementModes.DepthCompressed, Color.white);
+   //   SetupCameraWithReplacementShader(capturePasses[4].camera, uberReplacementShader, ReplacelementModes.Normals);
+    //  SetupCameraWithPostShader(capturePasses[5].camera, opticalFlowMaterial, DepthTextureMode.Depth | DepthTextureMode.MotionVectors);
     }
 
 

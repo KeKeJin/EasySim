@@ -1600,7 +1600,7 @@ namespace Valve.VR.InteractionSystem
             renderModels.Clear();
 
             GameObject renderModelInstance = GameObject.Instantiate(renderModelPrefab);
-            renderModelInstance.layer = gameObject.layer;
+            renderModelInstance.layer = 9;
             renderModelInstance.tag = gameObject.tag;
             renderModelInstance.transform.parent = this.transform;
             renderModelInstance.transform.localPosition = Vector3.zero;

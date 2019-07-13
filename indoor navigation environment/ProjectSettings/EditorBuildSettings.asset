@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HauntedHouse.unity
     guid: 139fe7247bf905647981ad2d31d0f39e
+  - enabled: 1
+    path: Assets/Scenes/WareHouseVR.unity
+    guid: 4d104db0e9537cd4796bc322b694dcc3
   m_configObjects: {}

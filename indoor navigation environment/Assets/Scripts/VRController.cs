@@ -14,8 +14,8 @@ public class VRController : MonoBehaviour
     public SteamVR_Action_Vector2 m_MoveValue = null;
     private CharacterController m_CharacterController = null;
     private float m_Speed = 0f;
-    private Transform m_CameraRig = null;
-    private Transform m_Head = null;
+    public Transform m_CameraRig = null;
+    public Transform m_Head = null;
     private string path = "./text.txt";
 
 
@@ -26,8 +26,8 @@ public class VRController : MonoBehaviour
 
     private void Start()
     {
-        m_CameraRig = SteamVR_Render.Top().origin;
-        m_Head = SteamVR_Render.Top().head;
+       // m_CameraRig = SteamVR_Render.Top().origin;
+       // m_Head = SteamVR_Render.Top().head;
     }
 
     // Update is called once per frame
