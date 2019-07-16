@@ -1,11 +1,23 @@
-# Simulator (indoor environment)
+# EasySim (Yizhe Simulator for AV Indoor Environment)
 
-This is a simulation for AV indoor navigation. Currently it supports one scenes, and several functionalities, including virtual reality, depth rendering, and segmentation camera rendering. 
-In the future(by the end of July 2019), it will have more scenes, and it will also simulate a lidar sensor, and it will be ROS compatible.
+This is a simulation for AV indoor navigation. Currently it supports two scenes(warehouse and haunted house) and two modes
+(vr mode and display mode), and several functionalities, including depth rendering, and segmentation camera rendering. 
+In the future(by the end of July 2019), it will support more scenes, and hopefully it will also simulate a lidar sensor.
 ![progresss.gif](progresss.gif)
+## Examples
+
+### scenes and modes
+![selectScene.gif](selectScenes.gif)
+Users can select different scenes and modes.
+### display mode
+![cruiseControl.gif](displaymode.gif)
+It renders semantic and depth view on the monitor. Under display mode, users can control the agent using arrow keys.
+### vr mode
+![vrmode.gif](vrmode.gif)
+Under vr mode, users can select depth view/semantic view/ground truth view. Those views will be saved externally.Users can also move around using handle controllers' trackpad.
 ## Getting Started
 
-1. Install unity (recommend 2018 2.4 and above). [Windows](https://unity3d.com/get-unity/download/archive) [Linux](https://beta.unity3d.com/download/fe703c5165de/public_download.html)
+1. Install unity (recommend 2018 4.1 and above). [Windows](https://unity3d.com/get-unity/download/archive) [Linux](https://beta.unity3d.com/download/fe703c5165de/public_download.html)
 2. Install [Git LFS](https://git-lfs.github.com/) (this should be as simple as `git lfs install`).
 3. Clone this repository from Github:
 ```      git clone https://github.com/kekekekekekekekeke/simulator.git ```
@@ -14,7 +26,7 @@ In the future(by the end of July 2019), it will have more scenes, and it will al
 
 ### Additional Notes
 
-You need a headset and controllers to activate the VR functionality.
+You need a headset and controllers to enter vr mode.
 
 
 ## Deployment
