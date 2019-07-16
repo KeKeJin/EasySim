@@ -7,6 +7,8 @@ public class HandleMenuVR : MonoBehaviour
 {
     public GameObject ExitGameObject;
     public GameObject VRCamera;
+    public GameObject depth;
+    public GameObject semantics;
     public GameObject Traffics;
 
     public void Show(Hand hand)
@@ -22,41 +24,28 @@ public class HandleMenuVR : MonoBehaviour
         Traffics.SetActive(true);
     }
 
-    // todo: fix these
-
-    private void Reload()
-    {
-        Destroy(VRCamera.GetComponent<GroundView>());
-        Destroy(VRCamera.GetComponent<DepthSynthesis>());
-        Destroy(VRCamera.GetComponent<ImageSynthesis>());
-
-    }
     public void Depth(Hand hand)
     {
-        // Reload();
-        //VRCamera.AddComponent<DepthSynthesis>();
-        VRCamera.GetComponent<DepthSynthesis>().enabled = true;
-        VRCamera.GetComponent<GroundView>().enabled = false;
-        VRCamera.GetComponent<ImageSynthesis>().enabled = false;
 
+        VRCamera.GetComponent<GroundView>().depthRender = true;
+        VRCamera.GetComponent<GroundView>().groundRender = false;
+        VRCamera.GetComponent<GroundView>().semanticsRender = false;
+        Debug.Log("depth clicked");
     }
     public void Segmantics(Hand hand)
     {
-        // Reload();
-        // VRCamera.AddComponent<ImageSynthesis>();
-        VRCamera.GetComponent<DepthSynthesis>().enabled = false;
-        VRCamera.GetComponent<GroundView>().enabled = false;
-        VRCamera.GetComponent<ImageSynthesis>().enabled = true;
+
+        VRCamera.GetComponent<GroundView>().depthRender = false;
+        VRCamera.GetComponent<GroundView>().groundRender = false;
+        VRCamera.GetComponent<GroundView>().semanticsRender = true;
     }
 
     public void GroundTruth(Hand hand)
     {
-        //  Reload();
-        //  VRCamera.AddComponent<GroundView>();
+        VRCamera.GetComponent<GroundView>().depthRender = false;
+        VRCamera.GetComponent<GroundView>().groundRender = true;
+        VRCamera.GetComponent<GroundView>().semanticsRender = false;
 
 
-
-
-        Debug.Log("ground view");
     }
 }

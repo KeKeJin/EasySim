@@ -178,11 +178,12 @@ namespace Valve.VR.InteractionSystem
 			{
                 if (hmdTransforms != null)
                 {
-                    for (int i = 0; i < hmdTransforms.Length; i++)
-                    {
-                        if (hmdTransforms[i].gameObject.activeInHierarchy)
-                            return hmdTransforms[i];
-                    }
+                     for (int i = 0; i < hmdTransforms.Length; i++)
+                     {
+                         if (hmdTransforms[i].gameObject.activeInHierarchy)
+                             return hmdTransforms[i];
+                     }
+
                 }
 				return null;
 			}

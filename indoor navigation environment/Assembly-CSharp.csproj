@@ -141,7 +141,6 @@
     <Compile Include="Assets\Scripts\CarRemoteControl.cs" />
     <Compile Include="Assets\Scripts\CarUserControl.cs" />
     <Compile Include="Assets\Scripts\DepthRenderer.cs" />
-    <Compile Include="Assets\Scripts\DepthSynthesis.cs" />
     <Compile Include="Assets\Scripts\DropDownScene.cs" />
     <Compile Include="Assets\Scripts\FollowPlayerView.cs" />
     <Compile Include="Assets\Scripts\GameEnding.cs" />

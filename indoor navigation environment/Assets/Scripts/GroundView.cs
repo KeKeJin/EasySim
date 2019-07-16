@@ -43,7 +43,9 @@ public class GroundView : MonoBehaviour
 
     public Shader uberReplacementShader;
     public Shader opticalFlowShader;
-
+    public bool groundRender;
+    public bool depthRender;
+    public bool semanticsRender;
     public float opticalFlowSensitivity = 1.0f;
 
     // cached materials
@@ -126,6 +128,7 @@ public class GroundView : MonoBehaviour
     {
         int targetDisplay = 1;
         var mainCamera = GetComponent<Camera>();
+
         foreach (var pass in capturePasses)
         {
             if (pass.camera == mainCamera)
@@ -139,7 +142,9 @@ public class GroundView : MonoBehaviour
 
             // set targetDisplay here since it gets overriden by CopyFrom()
             pass.camera.targetDisplay = targetDisplay++;
+
         }
+
 
         // cache materials and setup material properties
         if (!opticalFlowMaterial || opticalFlowMaterial.shader != opticalFlowShader)
@@ -147,6 +152,18 @@ public class GroundView : MonoBehaviour
         opticalFlowMaterial.SetFloat("_Sensitivity", opticalFlowSensitivity);
 
         // setup command buffers and replacement shaders
+        if (depthRender)
+        {
+            SetupCameraWithReplacementShader(capturePasses[0].camera, uberReplacementShader, ReplacelementModes.DepthCompressed, Color.white);
+        }
+        else if (semanticsRender)
+        {
+            SetupCameraWithReplacementShader(capturePasses[0].camera, uberReplacementShader, ReplacelementModes.Normals);
+        }
+        else if (groundRender)
+        {
+            GetComponent<Camera>().ResetReplacementShader();
+        }
         SetupCameraWithReplacementShader(capturePasses[1].camera, uberReplacementShader, ReplacelementModes.ObjectId);
           SetupCameraWithReplacementShader(capturePasses[2].camera, uberReplacementShader, ReplacelementModes.CatergoryId);
             SetupCameraWithReplacementShader(capturePasses[3].camera, uberReplacementShader, ReplacelementModes.DepthCompressed, Color.white);

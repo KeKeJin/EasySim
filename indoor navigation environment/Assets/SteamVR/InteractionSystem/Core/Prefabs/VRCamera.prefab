@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 3222051235144688676}
   - component: {fileID: 3222051235145209646}
-  - component: {fileID: 238986010643552565}
-  - component: {fileID: 6926962874471157901}
-  - component: {fileID: 5782234253416344493}
   - component: {fileID: 3222051235133673848}
+  - component: {fileID: 2021496024109006295}
+  - component: {fileID: 6828274050692297114}
   - component: {fileID: 3222051235135911728}
+  - component: {fileID: 9047873654899924545}
   - component: {fileID: 3222051235134913530}
   m_Layer: 0
   m_Name: VRCamera
@@ -79,52 +79,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &238986010643552565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3222051235145123306}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b7e9fcb795b84664bfc1ac40799a68f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uberReplacementShader: {fileID: 4800000, guid: 171e6e515a12e4a298dce708924e98ba,
-    type: 3}
-  opticalFlowShader: {fileID: 4800000, guid: 2a970eca3c9e84f13b5b616e530a7919, type: 3}
-  opticalFlowSensitivity: 1
---- !u!114 &6926962874471157901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3222051235145123306}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5023f35dffacccc47a44a886d20b5e11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uberReplacementShader: {fileID: 0}
-  opticalFlowShader: {fileID: 0}
-  opticalFlowSensitivity: 1
---- !u!114 &5782234253416344493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3222051235145123306}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 979711925dcd4f0439f2d52178848990, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uberReplacementShader: {fileID: 0}
-  opticalFlowShader: {fileID: 0}
-  opticalFlowSensitivity: 1
 --- !u!114 &3222051235133673848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,6 +91,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ad1e469d4e3e04489f9a36419f1a4f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2021496024109006295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3222051235145123306}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a060a5240669fa64ca9622a09afcf6ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  depthLevel: 0.5
+  camera: {fileID: 0}
+  _shader: {fileID: 0}
+--- !u!114 &6828274050692297114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3222051235145123306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7e9fcb795b84664bfc1ac40799a68f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uberReplacementShader: {fileID: 4800000, guid: 171e6e515a12e4a298dce708924e98ba,
+    type: 3}
+  opticalFlowShader: {fileID: 4800000, guid: 2a970eca3c9e84f13b5b616e530a7919, type: 3}
+  opticalFlowSensitivity: 1
 --- !u!92 &3222051235135911728
 Behaviour:
   m_ObjectHideFlags: 0
@@ -145,6 +130,21 @@ Behaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3222051235145123306}
   m_Enabled: 1
+--- !u!114 &9047873654899924545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3222051235145123306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979711925dcd4f0439f2d52178848990, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uberReplacementShader: {fileID: 0}
+  opticalFlowShader: {fileID: 0}
+  opticalFlowSensitivity: 1
 --- !u!124 &3222051235134913530
 Behaviour:
   m_ObjectHideFlags: 0
