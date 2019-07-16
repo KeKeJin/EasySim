@@ -3,7 +3,7 @@
 This is a simulation for AV indoor navigation. Currently it supports two scenes(warehouse and haunted house) and two modes
 (vr mode and display mode), and several functionalities, including depth rendering, and segmentation camera rendering. 
 In the future(by the end of July 2019), it will support more scenes, and hopefully it will also simulate a lidar sensor.
-![progresss.gif](progresss.gif)
+
 ## Examples
 
 ### scenes and modes
