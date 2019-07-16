@@ -59,11 +59,11 @@ public class DropDownScene : MonoBehaviour {
         ColorBlock cbMode = modeDropDown.colors;
         ColorBlock cbScene = sceneDropdown.colors;
         if (selectMode != 0 && selectScene != 0)
-        {if(selectMode == 1)
+        {if(selectMode == 2)
             {
                 SceneManager.LoadScene(selectScene);
             }
-            else
+            else if(selectMode == 1)
             {
                 SceneManager.LoadScene(selectScene + 2);
             }
