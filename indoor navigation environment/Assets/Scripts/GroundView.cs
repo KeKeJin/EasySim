@@ -158,7 +158,7 @@ public class GroundView : MonoBehaviour
         }
         else if (semanticsRender)
         {
-            SetupCameraWithReplacementShader(capturePasses[0].camera, uberReplacementShader, ReplacelementModes.Normals);
+            SetupCameraWithReplacementShader(capturePasses[0].camera, uberReplacementShader, ReplacelementModes.ObjectId);
         }
         else if (groundRender)
         {

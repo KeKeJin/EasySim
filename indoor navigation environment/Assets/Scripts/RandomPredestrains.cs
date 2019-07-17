@@ -9,6 +9,7 @@ public class RandomPredestrains : MonoBehaviour {
     public float density;
     public float traffic_Max = 10;
     private float traffic = 0;
+    public GameObject directory;
     // Use this for initialization
     void Start()
     {
@@ -32,7 +33,9 @@ public class RandomPredestrains : MonoBehaviour {
         Vector3 targetLocation = target.transform.position;
         Quaternion targetRotation = target.transform.rotation;
         target.SetActive(true);
-        Instantiate(target, targetLocation, targetRotation);
+        GameObject spawn= Instantiate(target, targetLocation, targetRotation);
+        spawn.transform.parent = directory.transform;
+        spawn.SetActive(true);
         target.SetActive(false);
     }
 }

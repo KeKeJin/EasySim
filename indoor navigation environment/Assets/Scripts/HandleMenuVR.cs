@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using Valve.VR.InteractionSystem;
 
 public class HandleMenuVR : MonoBehaviour
@@ -10,7 +12,9 @@ public class HandleMenuVR : MonoBehaviour
     public GameObject depth;
     public GameObject semantics;
     public GameObject Traffics;
+    private bool trafficEnabled;
 
+ 
     public void Show(Hand hand)
     {
         ExitGameObject.SetActive(true);
@@ -19,9 +23,23 @@ public class HandleMenuVR : MonoBehaviour
     {
         ExitGameObject.SetActive(false);
     }
+    public void BackToMain(Hand hand)
+    {
+        SceneManager.LoadScene(0);
+    }
     public void SetTraffics(Hand hand)
     {
-        Traffics.SetActive(true);
+        if (trafficEnabled)
+        {
+            Traffics.SetActive(false);
+            trafficEnabled = false;
+        }
+        else
+        {
+            Traffics.SetActive(true);
+            trafficEnabled = true;
+        }
+
     }
 
     public void Depth(Hand hand)
