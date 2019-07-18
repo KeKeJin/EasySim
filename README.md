@@ -33,14 +33,14 @@ Under vr mode, users can select depth view/semantic view/ground truth view. Thos
 ![whereToEdit.png](whereToEdit.png)
 2. Select the pencil icon to start editing.
 ![selectEdit.png](selectEdit.png)
-3. Choose Position, and select trackPadTouch(required)
+3. Choose Position, and select trackpadtouch(required)
 ![selectTrackPadTouch.png](selectTrackPadTouch.png)
 4. Save this binding. 
 * If you couldn't find trackPadTouch in step 3, in unity, go to Window -> SteamVR Input, under Action, select "+". 
 ![addAction.png](addAction.png)
 * Add an action called "TouchPadTouch", with type "vector2", and make it mandatory.
-* select "save and generate", then you should be able to find trackOadTouch in step 3.
-![setUpAction.png](setupAction.png)
+* select "save and generate", then you should be able to find trackpadtouch in step 3.
+![setUpAction.png](setUpAction.png)
 
 ## Deployment
 ``` TODO: how to make the simulator ROS compatible ``` 
