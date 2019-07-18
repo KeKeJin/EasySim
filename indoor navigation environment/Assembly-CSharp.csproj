@@ -157,7 +157,9 @@
     <Compile Include="Assets\Scripts\RandomPredestrains.cs" />
     <Compile Include="Assets\Scripts\SimulationController.cs" />
     <Compile Include="Assets\Scripts\Steering.cs" />
+    <Compile Include="Assets\Scripts\SystemController.cs" />
     <Compile Include="Assets\Scripts\ToggleControl.cs" />
+    <Compile Include="Assets\Scripts\ToggleExit.cs" />
     <Compile Include="Assets\Scripts\ToggleReset.cs" />
     <Compile Include="Assets\Scripts\VRController.cs" />
     <Compile Include="Assets\Scripts\VRMenu.cs" />
