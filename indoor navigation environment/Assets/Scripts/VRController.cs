@@ -120,7 +120,6 @@ public class VRController : MonoBehaviour
 {
     public float m_Sensitivity = 0.1f;
     public float m_MaxSpeed = 1.0f;
-    public GameEnding gameEnding;
     public SteamVR_Action_Boolean m_MovePress = null;
     public SteamVR_Action_Vector2 m_MoveValue = null;
     private CharacterController m_CharacterController = null;
@@ -133,11 +132,6 @@ public class VRController : MonoBehaviour
     private void Awake()
     {
         m_CharacterController = GetComponent<CharacterController>();
-    }
-    void Start()
-    {
-        m_CameraRig = SteamVR_Render.Top().origin;
-        m_Head = SteamVR_Render.Top().head;
     }
 
     // Update is called once per frame

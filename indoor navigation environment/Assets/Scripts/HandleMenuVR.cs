@@ -9,12 +9,10 @@ public class HandleMenuVR : MonoBehaviour
 {
     public GameObject ExitGameObject;
     public GameObject VRCamera;
-    public GameObject depth;
-    public GameObject semantics;
     public GameObject Traffics;
     private bool trafficEnabled;
+    public GameObject currentPlayer;
 
- 
     public void Show(Hand hand)
     {
         ExitGameObject.SetActive(true);
@@ -25,6 +23,8 @@ public class HandleMenuVR : MonoBehaviour
     }
     public void BackToMain(Hand hand)
     {
+        Destroy(currentPlayer);
+
         SceneManager.LoadScene(0);
     }
     public void SetTraffics(Hand hand)
@@ -44,15 +44,12 @@ public class HandleMenuVR : MonoBehaviour
 
     public void Depth(Hand hand)
     {
-
         VRCamera.GetComponent<GroundView>().depthRender = true;
         VRCamera.GetComponent<GroundView>().groundRender = false;
         VRCamera.GetComponent<GroundView>().semanticsRender = false;
-        Debug.Log("depth clicked");
     }
     public void Segmantics(Hand hand)
     {
-
         VRCamera.GetComponent<GroundView>().depthRender = false;
         VRCamera.GetComponent<GroundView>().groundRender = false;
         VRCamera.GetComponent<GroundView>().semanticsRender = true;
