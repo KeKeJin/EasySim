@@ -24,9 +24,9 @@ Under vr mode, users can select depth view/semantic view/ground truth view. Thos
       
 
 
-### Additional Notes
+### Requirement for VR devices
 
-* VR mode uses a specific controller binding for the HTC Vive Controller.
+* This application is developed with HTC vive under *room scale*, also with a special controller binding for the HTC Vive Controller.
 * In Unity, go to Window -> SteamVR Input, choose "open binding UI'.
 * Alternatively, you can go to SteamVR Menu -> Devices -> Configure Controllers. Press play in your application to get it running then select it under Current Application. Select Edit this binding.
 1. Find TrackPad
