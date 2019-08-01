@@ -217,6 +217,8 @@ GameObject:
   m_Component:
   - component: {fileID: 447954}
   - component: {fileID: 11465950}
+  - component: {fileID: 218722949674010195}
+  - component: {fileID: 4754009966470693927}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -272,6 +274,41 @@ MonoBehaviour:
     actionPath: /actions/default/in/HeadsetOnHead
     needsReinit: 0
   allowToggleTo2D: 1
+--- !u!195 &218722949674010195
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107946}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &4754009966470693927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87db442af6be8e4a982be8e171e123b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints: []
 --- !u!1 &109154
 GameObject:
   m_ObjectHideFlags: 0
@@ -1507,11 +1544,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 494198}
     m_Modifications:
-    - target: {fileID: 3222051235145123306, guid: 3207176e9dd01324ebeee154d7ba4edc,
-        type: 3}
-      propertyPath: m_Name
-      value: VRCamera
-      objectReference: {fileID: 0}
     - target: {fileID: 3222051235144688676, guid: 3207176e9dd01324ebeee154d7ba4edc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1566,6 +1598,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3222051235145123306, guid: 3207176e9dd01324ebeee154d7ba4edc,
+        type: 3}
+      propertyPath: m_Name
+      value: VRCamera
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6828274050692297114, guid: 3207176e9dd01324ebeee154d7ba4edc, type: 3}
