@@ -158,6 +158,7 @@
     <Compile Include="Assets\Scripts\RandomPredestrains.cs" />
     <Compile Include="Assets\Scripts\SimulationController.cs" />
     <Compile Include="Assets\Scripts\Steering.cs" />
+    <Compile Include="Assets\Scripts\SwitchingCanvasCamera.cs" />
     <Compile Include="Assets\Scripts\SystemController.cs" />
     <Compile Include="Assets\Scripts\ToggleControl.cs" />
     <Compile Include="Assets\Scripts\ToggleExit.cs" />

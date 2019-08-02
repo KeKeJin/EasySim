@@ -28,6 +28,7 @@ public class VRSwitchPlayer : MonoBehaviour
     {
         SwitchPlayer();
         OpenMenu();
+        EnableController();
     }
     void SwitchPlayer()
     {
@@ -39,15 +40,20 @@ public class VRSwitchPlayer : MonoBehaviour
     }
     public void EnableController()
     {
-            Debug.Log("enabling controller");
-        controllerEnabled = !controllerEnabled;
-        m_VRController.enabled = controllerEnabled;
-            m_navMesh.isStopped = controllerEnabled;
+        if (m_VRController.isActiveAndEnabled)
+        {
+            controllerEnabled = true;
+        }
+        else
+        {
+            controllerEnabled = false;
+        }
     }
     void OpenMenu()
     {
         if (m_Menu.GetStateUp(SteamVR_Input_Sources.Any))
         {
+            Debug.Log("open menu");
             menuOpen = !menuOpen;
             menu.SetActive(menuOpen);
             m_navMesh.isStopped = menuOpen || controllerEnabled;

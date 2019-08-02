@@ -510,7 +510,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41722566}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25453f6f34bac1c4ead6b72cf14d2d8d, type: 3}
   m_Name: 
@@ -1665,7 +1665,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &201386068
 Transform:
   m_ObjectHideFlags: 0
@@ -2882,6 +2882,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &273310264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3082,6 +3085,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &275366190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3686,6 +3692,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &301458048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4256,6 +4265,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &328156142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4273,6 +4285,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &328156143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4898,6 +4913,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &362287248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5206,6 +5224,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &391279482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5458,6 +5479,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &397372736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5618,6 +5642,18 @@ Transform:
   m_Father: {fileID: 34579149}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &418956599 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11450312, guid: dc06161b6d97feb419f45f03b62e14b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 605810215}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29e3e4511966ba94d8ba0b98c6c62f82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &420564316
 GameObject:
   m_ObjectHideFlags: 0
@@ -5740,6 +5776,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &420564320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5757,6 +5796,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &420564321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5851,7 +5893,12 @@ PrefabInstance:
     - target: {fileID: 6027957711878222551, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027957711277416584, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6027957711878222555, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
@@ -6013,11 +6060,6 @@ PrefabInstance:
       propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6027957711277416584, guid: b69116b85a924f449a3ae392a335b738,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6914701716911520814, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
       propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -6031,6 +6073,11 @@ PrefabInstance:
     - target: {fileID: 6914701716911520814, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
       propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027957710118321830, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -6397,6 +6444,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &460684925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6476,6 +6526,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 460684921}
   m_CullTransparentMesh: 0
+--- !u!1 &461013181 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6027957710702501044, guid: b69116b85a924f449a3ae392a335b738,
+    type: 3}
+  m_PrefabInstance: {fileID: 1824334521}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &468286335
 GameObject:
   m_ObjectHideFlags: 0
@@ -7156,9 +7212,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExitGameObject: {fileID: 447508670}
-  VRCamera: {fileID: 843975241}
+  VRCameras: []
   Traffics: {fileID: 1788095300}
-  currentPlayer: {fileID: 0}
+  currentPlayers: []
+  index: 0
 --- !u!1 &527502682
 GameObject:
   m_ObjectHideFlags: 0
@@ -7598,9 +7655,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExitGameObject: {fileID: 2034205438}
-  VRCamera: {fileID: 1523452628}
+  VRCameras: []
   Traffics: {fileID: 1788095300}
-  currentPlayer: {fileID: 0}
+  currentPlayers: []
+  index: 0
 --- !u!1 &556141042 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5075534488604402034, guid: abeb186619cc7e6419cb81e1e4dfa162,
@@ -7696,6 +7754,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: currentPlayer
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: m_Grip.actionPath
+      value: /actions/default/in/GrabGrip
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: m_Trig.actionPath
+      value: /actions/default/in/GrabPinch
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 896685753}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: m_Menu.actionPath
+      value: /actions/default/in/MenuOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: menu
+      value: 
+      objectReference: {fileID: 336738948}
     - target: {fileID: 471722, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -7710,7 +7798,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 125964, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_Name
-      value: VRCamera
+      value: VRCamera5
       objectReference: {fileID: 0}
     - target: {fileID: 429506, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_RootOrder
@@ -8071,36 +8159,6 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[1]
       value: 
       objectReference: {fileID: 1988047446}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: currentPlayer
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: m_Grip.actionPath
-      value: /actions/default/in/GrabGrip
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: m_Trig.actionPath
-      value: /actions/default/in/GrabPinch
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: playerController
-      value: 
-      objectReference: {fileID: 896685753}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: m_Menu.actionPath
-      value: /actions/default/in/MenuOpen
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: menu
-      value: 
-      objectReference: {fileID: 1680573463}
     m_RemovedComponents:
     - {fileID: 2320021639084134816, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
     - {fileID: 3451457178204680403, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
@@ -8156,7 +8214,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585651508}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25453f6f34bac1c4ead6b72cf14d2d8d, type: 3}
   m_Name: 
@@ -8230,18 +8288,6 @@ MonoBehaviour:
   - {fileID: 970110555}
   - {fileID: 2089602100}
   - {fileID: 1164446009}
---- !u!114 &585651514 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-    type: 3}
-  m_PrefabInstance: {fileID: 605810215}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 585651508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e6fd12d484b9c64891a48ac346c8167, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &591023602
 GameObject:
   m_ObjectHideFlags: 0
@@ -8331,7 +8377,12 @@ PrefabInstance:
     - target: {fileID: 6027957711878222551, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027957711277416584, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6027957711878222555, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
@@ -8493,11 +8544,6 @@ PrefabInstance:
       propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6027957711277416584, guid: b69116b85a924f449a3ae392a335b738,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6914701716911520814, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
       propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -8511,6 +8557,11 @@ PrefabInstance:
     - target: {fileID: 6914701716911520814, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
       propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027957710118321830, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -8581,6 +8632,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 896685753}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: m_Grip.actionPath
+      value: /actions/default/in/GrabGrip
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: m_Trig.actionPath
+      value: /actions/default/in/GrabPinch
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: m_Menu.actionPath
+      value: /actions/default/in/MenuOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: menu
+      value: 
+      objectReference: {fileID: 336738948}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: mGrip.actionPath
+      value: /actions/default/in/GrabGrip
+      objectReference: {fileID: 0}
     - target: {fileID: 471722, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -8595,7 +8676,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 125964, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_Name
-      value: VRCamera
+      value: VRCamera1
       objectReference: {fileID: 0}
     - target: {fileID: 429506, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_RootOrder
@@ -8946,36 +9027,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: playerController
-      value: 
-      objectReference: {fileID: 896685753}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: m_Grip.actionPath
-      value: /actions/default/in/GrabGrip
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: m_Trig.actionPath
-      value: /actions/default/in/GrabPinch
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: m_Menu.actionPath
-      value: /actions/default/in/MenuOpen
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: menu
-      value: 
-      objectReference: {fileID: 336738948}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: mGrip.actionPath
-      value: /actions/default/in/GrabGrip
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2320021639084134816, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
     - {fileID: 3451457178204680403, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
@@ -9094,6 +9145,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &612799880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9212,12 +9266,6 @@ Transform:
   m_Father: {fileID: 34579149}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &621451657 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6027957711277416584, guid: b69116b85a924f449a3ae392a335b738,
-    type: 3}
-  m_PrefabInstance: {fileID: 1347993832}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &633374179
 GameObject:
   m_ObjectHideFlags: 0
@@ -10048,6 +10096,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &707035873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10524,7 +10575,12 @@ PrefabInstance:
     - target: {fileID: 6027957711878222551, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027957711277416584, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6027957711878222555, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
@@ -10686,11 +10742,6 @@ PrefabInstance:
       propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6027957711277416584, guid: b69116b85a924f449a3ae392a335b738,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6914701716911520814, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
       propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -10704,6 +10755,11 @@ PrefabInstance:
     - target: {fileID: 6914701716911520814, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
       propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027957710118321830, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -11091,9 +11147,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExitGameObject: {fileID: 1267245676}
-  VRCamera: {fileID: 1480795683}
+  VRCameras: []
   Traffics: {fileID: 1788095300}
-  currentPlayer: {fileID: 0}
+  currentPlayers: []
+  index: 0
 --- !u!1 &843975241 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 125964, guid: dc06161b6d97feb419f45f03b62e14b9,
@@ -11237,6 +11294,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &864525595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11670,6 +11730,30 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1824334521}
   m_PrefabAsset: {fileID: 0}
+--- !u!223 &885151222 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 6027957711878222554, guid: b69116b85a924f449a3ae392a335b738,
+    type: 3}
+  m_PrefabInstance: {fileID: 1824334521}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &885151223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885151218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e3b469883881745b7603bbecfda761, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myCameras:
+  - {fileID: 1880121164}
+  - {fileID: 1845310519}
+  - {fileID: 1112943755}
+  - {fileID: 1159518594}
+  - {fileID: 1586123013}
 --- !u!1 &886310232
 GameObject:
   m_ObjectHideFlags: 0
@@ -12175,6 +12259,14 @@ MonoBehaviour:
   - {fileID: 1020058765}
   - {fileID: 1133170171}
   - {fileID: 1268211654}
+  m_Canvas: {fileID: 885151222}
+  myCameras:
+  - {fileID: 1880121164}
+  - {fileID: 1845310519}
+  - {fileID: 1112943755}
+  - {fileID: 1159518594}
+  - {fileID: 1586123013}
+  handleMenu: {fileID: 1022145383}
 --- !u!4 &896685755
 Transform:
   m_ObjectHideFlags: 0
@@ -12192,7 +12284,7 @@ Transform:
   - {fileID: 1133170175}
   - {fileID: 1268211658}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &914418604
 GameObject:
@@ -12406,6 +12498,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: currentPlayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 896685753}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: m_Grip.actionPath
+      value: /actions/default/in/GrabGrip
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: m_Trig.actionPath
+      value: /actions/default/in/GrabPinch
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: m_Menu.actionPath
+      value: /actions/default/in/MenuOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: menu
+      value: 
+      objectReference: {fileID: 336738948}
     - target: {fileID: 471722, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -12420,7 +12542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 125964, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_Name
-      value: VRCamera
+      value: VRCamera4
       objectReference: {fileID: 0}
     - target: {fileID: 429506, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_RootOrder
@@ -12811,36 +12933,6 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[7]
       value: 
       objectReference: {fileID: 1718850009}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: currentPlayer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: playerController
-      value: 
-      objectReference: {fileID: 896685753}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: m_Grip.actionPath
-      value: /actions/default/in/GrabGrip
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: m_Trig.actionPath
-      value: /actions/default/in/GrabPinch
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: m_Menu.actionPath
-      value: /actions/default/in/MenuOpen
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: menu
-      value: 
-      objectReference: {fileID: 161501945}
     m_RemovedComponents:
     - {fileID: 2320021639084134816, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
     - {fileID: 3451457178204680403, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
@@ -13305,6 +13397,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &959862372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14143,6 +14238,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1019964840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14160,6 +14258,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1019964841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14252,7 +14353,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020058765}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25453f6f34bac1c4ead6b72cf14d2d8d, type: 3}
   m_Name: 
@@ -14447,6 +14548,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1021364276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14577,6 +14681,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1021364272}
   m_CullTransparentMesh: 0
+--- !u!1 &1022145383 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6027957710355951968, guid: b69116b85a924f449a3ae392a335b738,
+    type: 3}
+  m_PrefabInstance: {fileID: 1824334521}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1022145384 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6027957710355951969, guid: b69116b85a924f449a3ae392a335b738,
+    type: 3}
+  m_PrefabInstance: {fileID: 1824334521}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022145383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f09e252a38fa345b8303ffa7c9d927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1025902284
 GameObject:
   m_ObjectHideFlags: 0
@@ -14623,7 +14745,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1028392715
 GameObject:
@@ -15044,12 +15166,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1105801227}
   m_Mesh: {fileID: 4300062, guid: e6fec471c20b9d148b1f87910e67bea4, type: 3}
---- !u!1 &1108462320 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6027957711277416584, guid: b69116b85a924f449a3ae392a335b738,
-    type: 3}
-  m_PrefabInstance: {fileID: 804814856}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1112943748
 GameObject:
   m_ObjectHideFlags: 0
@@ -15066,7 +15182,7 @@ GameObject:
   - component: {fileID: 1112943751}
   - component: {fileID: 1112943750}
   m_Layer: 0
-  m_Name: menu
+  m_Name: menu3
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15309,6 +15425,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1116686200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15734,7 +15853,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1133170171}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25453f6f34bac1c4ead6b72cf14d2d8d, type: 3}
   m_Name: 
@@ -15835,7 +15954,7 @@ GameObject:
   - component: {fileID: 1159518590}
   - component: {fileID: 1159518589}
   m_Layer: 0
-  m_Name: menu
+  m_Name: menu4
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20937,6 +21056,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1202753679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21212,6 +21334,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1212513579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21655,6 +21780,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1242291517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21907,6 +22035,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1246468338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21924,6 +22055,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1246468339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22218,7 +22352,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1268211654}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25453f6f34bac1c4ead6b72cf14d2d8d, type: 3}
   m_Name: 
@@ -22754,6 +22888,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1309910082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22999,7 +23136,12 @@ PrefabInstance:
     - target: {fileID: 6027957711878222551, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027957711277416584, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6027957711878222555, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
@@ -23161,11 +23303,6 @@ PrefabInstance:
       propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6027957711277416584, guid: b69116b85a924f449a3ae392a335b738,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6914701716911520814, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
       propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -23179,6 +23316,11 @@ PrefabInstance:
     - target: {fileID: 6914701716911520814, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
       propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027957710118321830, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -24344,6 +24486,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1442135898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24740,6 +24885,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: currentPlayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 896685753}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: m_Grip.actionPath
+      value: /actions/default/in/GrabGrip
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: m_Trig.actionPath
+      value: /actions/default/in/GrabPinch
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: m_Menu.actionPath
+      value: /actions/default/in/MenuOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: menu
+      value: 
+      objectReference: {fileID: 336738948}
     - target: {fileID: 471722, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -24754,7 +24929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 125964, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_Name
-      value: VRCamera
+      value: VRCamera3
       objectReference: {fileID: 0}
     - target: {fileID: 429506, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_RootOrder
@@ -25120,36 +25295,6 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[2]
       value: 
       objectReference: {fileID: 551735118}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: currentPlayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: playerController
-      value: 
-      objectReference: {fileID: 896685753}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: m_Grip.actionPath
-      value: /actions/default/in/GrabGrip
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: m_Trig.actionPath
-      value: /actions/default/in/GrabPinch
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: m_Menu.actionPath
-      value: /actions/default/in/MenuOpen
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: menu
-      value: 
-      objectReference: {fileID: 621451657}
     m_RemovedComponents:
     - {fileID: 2320021639084134816, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
     - {fileID: 3451457178204680403, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
@@ -25414,6 +25559,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1474199004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25873,9 +26021,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExitGameObject: {fileID: 201386067}
-  VRCamera: {fileID: 870516453}
+  VRCameras: []
   Traffics: {fileID: 1788095300}
-  currentPlayer: {fileID: 0}
+  currentPlayers: []
+  index: 0
 --- !u!1 &1518478393
 GameObject:
   m_ObjectHideFlags: 0
@@ -26837,7 +26986,7 @@ GameObject:
   - component: {fileID: 1586123009}
   - component: {fileID: 1586123008}
   m_Layer: 0
-  m_Name: menu
+  m_Name: menu5
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27618,6 +27767,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1653306865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28092,6 +28244,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1678991937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28259,12 +28414,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679811279}
   m_CullTransparentMesh: 0
---- !u!1 &1680573463 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6027957711277416584, guid: b69116b85a924f449a3ae392a335b738,
-    type: 3}
-  m_PrefabInstance: {fileID: 427184770}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1686380756
 GameObject:
   m_ObjectHideFlags: 0
@@ -28386,6 +28535,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1686380760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28745,6 +28897,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1726763267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28978,7 +29133,7 @@ Transform:
   - {fileID: 945486560}
   - {fileID: 1186917366}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1772605240
 GameObject:
@@ -29081,6 +29236,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1772605243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30054,7 +30212,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 585651509}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6027957711878222551, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
@@ -30065,6 +30223,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027957711277416584, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6027957711878222555, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
@@ -30104,7 +30267,7 @@ PrefabInstance:
     - target: {fileID: 6027957711878222555, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6027957711878222555, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
@@ -30176,6 +30339,21 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1880121164}
+    - target: {fileID: 6027957711878222554, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027957710355951969, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: VRCameras.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027957710355951969, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: currentPlayers.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6027957710355951969, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
       propertyPath: VRCamera
@@ -30196,6 +30374,56 @@ PrefabInstance:
       propertyPath: currentPlayer
       value: 
       objectReference: {fileID: 585651508}
+    - target: {fileID: 6027957710355951969, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: VRCameras.Array.data[0]
+      value: 
+      objectReference: {fileID: 870516453}
+    - target: {fileID: 6027957710355951969, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: currentPlayers.Array.data[0]
+      value: 
+      objectReference: {fileID: 585651508}
+    - target: {fileID: 6027957710355951969, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: currentPlayers.Array.data[1]
+      value: 
+      objectReference: {fileID: 41722566}
+    - target: {fileID: 6027957710355951969, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: VRCameras.Array.data[1]
+      value: 
+      objectReference: {fileID: 843975241}
+    - target: {fileID: 6027957710355951969, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: currentPlayers.Array.data[2]
+      value: 
+      objectReference: {fileID: 1020058765}
+    - target: {fileID: 6027957710355951969, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: VRCameras.Array.data[2]
+      value: 
+      objectReference: {fileID: 1480795683}
+    - target: {fileID: 6027957710355951969, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: currentPlayers.Array.data[3]
+      value: 
+      objectReference: {fileID: 1133170171}
+    - target: {fileID: 6027957710355951969, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: VRCameras.Array.data[3]
+      value: 
+      objectReference: {fileID: 1523452628}
+    - target: {fileID: 6027957710355951969, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: currentPlayers.Array.data[4]
+      value: 
+      objectReference: {fileID: 1268211654}
+    - target: {fileID: 6027957710355951969, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: VRCameras.Array.data[4]
+      value: 
+      objectReference: {fileID: 1995094158}
     - target: {fileID: 1908123077375162102, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
       propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -30214,7 +30442,7 @@ PrefabInstance:
     - target: {fileID: 6027957710553236874, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
       propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6027957710680252666, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
@@ -30226,10 +30454,35 @@ PrefabInstance:
       propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6027957711277416584, guid: b69116b85a924f449a3ae392a335b738,
+    - target: {fileID: 6914701716911520814, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914701716911520814, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1022145384}
+    - target: {fileID: 6914701716911520814, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CruiseControl
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914701716911520814, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914701716911520814, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914701716911520814, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6027957710118321830, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
@@ -30276,23 +30529,39 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6914701716911520814, guid: b69116b85a924f449a3ae392a335b738,
+    - target: {fileID: 7707191880973376205, guid: b69116b85a924f449a3ae392a335b738,
         type: 3}
-      propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 585651514}
-    - target: {fileID: 6914701716911520814, guid: b69116b85a924f449a3ae392a335b738,
-        type: 3}
-      propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EnableController
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914701716911520814, guid: b69116b85a924f449a3ae392a335b738,
-        type: 3}
-      propertyPath: onHandClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6027957710553236869, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: attachedToHand
+      value: 
+      objectReference: {fileID: 418956599}
+    - target: {fileID: 6027957710702501050, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027957710702501050, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027957710702501050, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027957710702501050, guid: b69116b85a924f449a3ae392a335b738,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 461013181}
     m_RemovedComponents:
     - {fileID: 6027957710331006282, guid: b69116b85a924f449a3ae392a335b738, type: 3}
+    - {fileID: 2334091655050670526, guid: b69116b85a924f449a3ae392a335b738, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b69116b85a924f449a3ae392a335b738, type: 3}
 --- !u!1 &1826525831
 GameObject:
@@ -30444,6 +30713,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: currentPlayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 896685753}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: m_Grip.actionPath
+      value: /actions/default/in/GrabGrip
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: m_Trig.actionPath
+      value: /actions/default/in/GrabPinch
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: m_Menu.actionPath
+      value: /actions/default/in/MenuOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
+        type: 3}
+      propertyPath: menu
+      value: 
+      objectReference: {fileID: 336738948}
     - target: {fileID: 471722, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -30458,7 +30757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 125964, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_Name
-      value: VRCamera
+      value: VRCamera2
       objectReference: {fileID: 0}
     - target: {fileID: 429506, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_RootOrder
@@ -30829,36 +31128,6 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[3]
       value: 
       objectReference: {fileID: 615389304}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: currentPlayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: playerController
-      value: 
-      objectReference: {fileID: 896685753}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: m_Grip.actionPath
-      value: /actions/default/in/GrabGrip
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: m_Trig.actionPath
-      value: /actions/default/in/GrabPinch
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: m_Menu.actionPath
-      value: /actions/default/in/MenuOpen
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145027246254982157, guid: dc06161b6d97feb419f45f03b62e14b9,
-        type: 3}
-      propertyPath: menu
-      value: 
-      objectReference: {fileID: 1108462320}
     m_RemovedComponents:
     - {fileID: 2320021639084134816, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
     - {fileID: 3451457178204680403, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
@@ -31063,7 +31332,7 @@ GameObject:
   - component: {fileID: 1845310515}
   - component: {fileID: 1845310514}
   m_Layer: 0
-  m_Name: menu
+  m_Name: menu2
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31702,9 +31971,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExitGameObject: {fileID: 1675367721}
-  VRCamera: {fileID: 1995094158}
+  VRCameras: []
   Traffics: {fileID: 1788095300}
-  currentPlayer: {fileID: 0}
+  currentPlayers: []
+  index: 0
 --- !u!1 &1879501369 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5075534488604402034, guid: abeb186619cc7e6419cb81e1e4dfa162,
@@ -31727,7 +31997,7 @@ GameObject:
   - component: {fileID: 1880121166}
   - component: {fileID: 1880121165}
   m_Layer: 0
-  m_Name: menu
+  m_Name: menu1
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32703,6 +32973,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &2050537766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32913,6 +33186,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &2058816255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32930,6 +33206,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: Valve.VR.InteractionSystem.CustomEvents+UnityEventHand, SteamVR, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  m_Pinch:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &2058816256
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -16,7 +16,7 @@ namespace Valve.VR.InteractionSystem
 	public class UIElement : MonoBehaviour
 	{
 		public CustomEvents.UnityEventHand onHandClick;
-
+        public SteamVR_Action_Boolean m_Pinch = null;
         protected Hand currentHand;
 
 		//-------------------------------------------------
@@ -25,7 +25,7 @@ namespace Valve.VR.InteractionSystem
 			Button button = GetComponent<Button>();
 			if ( button )
 			{
-				button.onClick.AddListener( OnButtonClick );
+                button.onClick.AddListener( OnButtonClick );
 			}
             
 		}
@@ -34,6 +34,7 @@ namespace Valve.VR.InteractionSystem
 		//-------------------------------------------------
 		protected virtual void OnHandHoverBegin( Hand hand )
 		{
+            Debug.Log("hand hover begin");
 			currentHand = hand;
 			InputModule.instance.HoverBegin( gameObject );
 			ControllerButtonHints.ShowButtonHint( hand, hand.uiInteractAction);
@@ -43,6 +44,7 @@ namespace Valve.VR.InteractionSystem
         //-------------------------------------------------
         protected virtual void OnHandHoverEnd( Hand hand )
 		{
+            Debug.Log("hand hover end");
 			InputModule.instance.HoverEnd( gameObject );
 			ControllerButtonHints.HideButtonHint( hand, hand.uiInteractAction);
 			currentHand = null;
@@ -52,10 +54,15 @@ namespace Valve.VR.InteractionSystem
         //-------------------------------------------------
         protected virtual void HandHoverUpdate( Hand hand )
 		{
-			if ( hand.uiInteractAction != null && hand.uiInteractAction.GetStateDown(hand.handType) )
+            Debug.Log("hand hover update");
+            if (m_Pinch.GetStateUp(SteamVR_Input_Sources.Any))
+            {
+                OnButtonClick();
+            }
+            if ( hand.uiInteractAction != null && hand.uiInteractAction.GetStateDown(hand.handType) )
 			{
 				InputModule.instance.Submit( gameObject );
-				ControllerButtonHints.HideButtonHint( hand, hand.uiInteractAction);
+                ControllerButtonHints.HideButtonHint(hand, hand.uiInteractAction);
 			}
 		}
 
@@ -63,7 +70,9 @@ namespace Valve.VR.InteractionSystem
         //-------------------------------------------------
         protected virtual void OnButtonClick()
 		{
+            Debug.Log("on button clicked");
 			onHandClick.Invoke( currentHand );
+           
 		}
 	}
 
@@ -82,6 +91,7 @@ namespace Valve.VR.InteractionSystem
 			UIElement uiElement = (UIElement)target;
 			if ( GUILayout.Button( "Click" ) )
 			{
+                Debug.Log("clicked anyway");
 				InputModule.instance.Submit( uiElement.gameObject );
 			}
 		}
