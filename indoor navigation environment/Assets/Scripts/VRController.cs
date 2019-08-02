@@ -122,12 +122,14 @@ public class VRController : MonoBehaviour
     public float m_MaxSpeed = 1.0f;
     public SteamVR_Action_Boolean m_MovePress = null;
     public SteamVR_Action_Vector2 m_MoveValue = null;
+    public SteamVR_Action_Boolean m_Grip = null;
     private CharacterController m_CharacterController = null;
     private float m_Speed = 0f;
     public Transform m_CameraRig = null;
     public Transform m_Head = null;
     private string path = "./text.txt";
-
+    public int currentPlayer;
+    public GameObject playerController;
 
     private void Awake()
     {
@@ -140,9 +142,17 @@ public class VRController : MonoBehaviour
         HandleHead();
         HandleHeight();
         CalculateRotation();
+        SwitchPlayer();
        // Log();
     }
-
+    void SwitchPlayer()
+    {
+        if (m_Grip.GetStateUp(SteamVR_Input_Sources.Any))
+        {
+            Debug.Log("switching to player" + currentPlayer + 1);
+            playerController.GetComponent<PlayerController>().SwitchPlayer(currentPlayer + 1);
+        }
+    }
 
     void HandleHead()
     {
