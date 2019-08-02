@@ -164,6 +164,7 @@
     <Compile Include="Assets\Scripts\ToggleReset.cs" />
     <Compile Include="Assets\Scripts\VRController.cs" />
     <Compile Include="Assets\Scripts\VRMenu.cs" />
+    <Compile Include="Assets\Scripts\VRSwitchPlayer.cs" />
     <Compile Include="Assets\Scripts\WandController.cs" />
     <Compile Include="Assets\Scripts\WanderingAI.cs" />
     <Compile Include="Assets\Scripts\WaypointPatrol.cs" />
