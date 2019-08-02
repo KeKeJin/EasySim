@@ -11,17 +11,18 @@ public class PlayerController : MonoBehaviour
     public Camera[] myCameras;
     public GameObject handleMenu;
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         num = players.Length;
-
-        
+    }
+    void Start()
+    {
+        SetUp();
     }
     private void Update()
     {
-      if (Time.frameCount < 5)
+      if (Time.frameCount == 5)
         {
-            Debug.Log("turn off everyone");
             SwitchPlayer(0);
         }
     }
@@ -40,5 +41,12 @@ public class PlayerController : MonoBehaviour
         }
         m_Canvas.worldCamera = myCameras[index];
         handleMenu.GetComponent<HandleMenuVR>().index = index;
+    }
+    private void SetUp()
+    {
+        for (int  i = 0; i < num; ++i)
+        {
+            players[i].SetActive(true);
+        }
     }
 }
